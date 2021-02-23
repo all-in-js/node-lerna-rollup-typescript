@@ -1,0 +1,29 @@
+{
+  "name": "eryue",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js --pkgs xxx"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.9.15",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "chalk": "^4.1.0",
+    "execa": "^4.0.3",
+    "fs-extra": "^9.0.1",
+    "lerna": "^3.18.4",
+    "rollup": "^2.27.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^4.0.2",
+    "yargs-parser": "^20.0.0"
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "dependencies": {}
+}
